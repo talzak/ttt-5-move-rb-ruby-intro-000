@@ -19,4 +19,5 @@ end
 def move(array, user_input, value="X")
   index = input_to_index(user_input)
   update_array_at_with(array, user_input, value)
+  return array
 end
