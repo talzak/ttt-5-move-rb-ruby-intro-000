@@ -16,8 +16,8 @@ def update_array_at_with(array, index, value)
   array[index] = value
 end
 
-def move(board, user_input, value="X")
+def move(array, user_input, value="X")
   index = input_to_index(user_input)
-  update_array_at_with(board, user_input, value)
+  update_array_at_with(array, user_input, value)
   return board
 end
